@@ -1,0 +1,13 @@
+
+    group 'io.github.kotlin-multiplatforms'
+    version '0.1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+}
